@@ -50,12 +50,12 @@ document.body.innerHTML=`
         function gettingdata(res){
             main.innerHTML+=`
             <div class ="Container-fluid" id="get"> 
-            <h5 id="commom"> <b> NAME OF THE BOOK </b> -::- ${res.name}</h5>
-            <h5 id="commom"> <b> AUTHOUR NAME </b>  -::- ${res.authors}</h5>
-            <h5 id="commom"> <b>ISBN</b> -::- ${res.isbn}</h5> 
-            <h5 id="commom"> <b>NUMBER OF PAGES</b> -::- ${res.numberOfPages}</h5> 
-            <h5 id="commom"> <b>PUBLISHER NAME </b> -::- ${res.publisher}</h5> 
-            <h5 id="commom"> <b> RELEASED DATE</b>  -::- ${res.released}</h5> 
+            <h2 id="commom"> <b> NAME OF THE BOOK </b> -::- ${res.name}</h2>
+            <h2 id="commom"> <b> AUTHOUR NAME </b>  -::- ${res.authors}</h2>
+            <h2 id="commom"> <b>ISBN</b> -::- ${res.isbn}</h2> 
+            <h2 id="commom"> <b>NUMBER OF PAGES</b> -::- ${res.numberOfPages}</h2> 
+            <h2 id="commom"> <b>PUBLISHER NAME </b> -::- ${res.publisher}</h2> 
+            <h2 id="commom"> <b> RELEASED DATE</b>  -::- ${res.released}</h2> 
             <a href="${res.povCharacters[0]}" class="btn btn-info"  onclick='myFunction(${res.povCharacters})' role="button">CHARECTERS OF THE BOOK</a>
             </div>
              
@@ -116,9 +116,9 @@ function gettinCharacter(eme){
     char.innerHTML+=`
   
     <div class ="Container" id="character"> 
-    <h4>ALIASES--::--${eme.aliases}</h4>
-    <h4> gender--::--${eme.gender}</h4>
-    <h4>culture--::-- ${eme.culture}</h4>
+    <h1> <b>ALIASES</b>--::--${eme.aliases}</h1>
+    <h2> <b> gender </b>--::--${eme.gender}</h2>
+    <h2> <b> culture </b>--::-- ${eme.culture}</h2>
     </div>
     
     `
