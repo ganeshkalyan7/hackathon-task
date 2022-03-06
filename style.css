@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+    color: black;
+}
+#get{
+    border: 3px solid black;
+    background-color:chartreuse;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding: 30px;
+
+    
+}
+#get:hover{
+    background-color: darkolivegreen;
+    color:white
+}
+#main{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    background-image: radial-gradient(circle, red, yellow, green);
+}
+hr{
+    border-color: aliceblue;
+    border: 3px solid aliceblue;
+}
+
+
+
+body{
+    background-color:indianred;
+}
+
+
+#character{
+    border: 3px solid black;
+    background-color:black;
+    color:white;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding: 30px;
+
+ 
+}
+#character:hover{
+
+    background-color:burlywood;
+    color: black;
+}
+#char{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    border: 3px solid black;
+    margin-top: 50px;
+    background-image: linear-gradient(180deg, red, yellow);
+
+
+}
